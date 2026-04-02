@@ -1,0 +1,8 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* Hide scrollbars on brand carousel */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}

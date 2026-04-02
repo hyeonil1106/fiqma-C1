@@ -1,5 +1,5 @@
-const heroBg = "https://images.unsplash.com/photo-1705232497552-abd05ad64485?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwbW9kZWwlMjBsdXh1cnklMjBlZGl0b3JpYWx8ZW58MXx8fHwxNzc1MDAyNTQxfDA&ixlib=rb-4.1.0&q=80&w=1080";
-const heroOverlay = "https://images.unsplash.com/photo-1756483510864-5bc7bdc3cf22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoaWdoJTIwZmFzaGlvbiUyMGVkaXRvcmlhbCUyMHdvbWVuJTIwZHJlc3N8ZW58MXx8fHwxNzc1MTEwNjEwfDA&ixlib=rb-4.1.0&q=80&w=1080";
+const heroBg = "https://images.unsplash.com/photo-1763906473317-c9193c8ef05a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBmYXNoaW9uJTIwZWRpdG9yaWFsJTIwbW9kZWx8ZW58MXx8fHwxNzc1MDA2MzI0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral";
+const heroOverlay = "https://images.unsplash.com/photo-1756483510864-5bc7bdc3cf22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoaWdoJTIwZmFzaGlvbiUyMHdvbWFuJTIwZWxlZ2FudCUyMGRyZXNzfGVufDF8fHx8MTc3NTExNTg4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral";
 
 export function HeroSection() {
   return (

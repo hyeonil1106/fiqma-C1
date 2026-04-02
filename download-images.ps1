@@ -10,37 +10,46 @@ Write-Host ""
 New-Item -ItemType Directory -Force -Path "public\images" | Out-Null
 
 # Hero Section 이미지
-Write-Host "[1/10] Hero 배경 이미지 다운로드 중..." -ForegroundColor Green
-Invoke-WebRequest -Uri "https://images.unsplash.com/photo-1705232497552-abd05ad64485?w=1920&q=80" -OutFile "public\images\hero-bg.jpg"
+Write-Host "[1/13] Hero 배경 이미지 다운로드 중..." -ForegroundColor Green
+Invoke-WebRequest -Uri "https://images.unsplash.com/photo-1763906473317-c9193c8ef05a?w=1920&q=80" -OutFile "public\images\hero-bg.jpg"
 
-Write-Host "[2/10] Hero 오버레이 이미지 다운로드 중..." -ForegroundColor Green
+Write-Host "[2/13] Hero 오버레이 이미지 다운로드 중..." -ForegroundColor Green
 Invoke-WebRequest -Uri "https://images.unsplash.com/photo-1756483510864-5bc7bdc3cf22?w=1920&q=80" -OutFile "public\images\hero-overlay.jpg"
 
 # Newsroom Section 이미지
-Write-Host "[3/10] 뉴스룸 이미지 1 다운로드 중..." -ForegroundColor Green
-Invoke-WebRequest -Uri "https://images.unsplash.com/photo-1563721465742-cc3ead9deb36?w=800&q=80" -OutFile "public\images\news-1.jpg"
+Write-Host "[3/13] 뉴스룸 이미지 1 다운로드 중..." -ForegroundColor Green
+Invoke-WebRequest -Uri "https://images.unsplash.com/photo-1641521953954-7f11e07cbb05?w=800&q=80" -OutFile "public\images\news-1.jpg"
 
-Write-Host "[4/10] 뉴스룸 이미지 2 다운로드 중..." -ForegroundColor Green
+Write-Host "[4/13] 뉴스룸 이미지 2 다운로드 중..." -ForegroundColor Green
 Invoke-WebRequest -Uri "https://images.unsplash.com/photo-1651742532474-ea4401a34a10?w=800&q=80" -OutFile "public\images\news-2.jpg"
 
-Write-Host "[5/10] 뉴스룸 이미지 3 다운로드 중..." -ForegroundColor Green
-Invoke-WebRequest -Uri "https://images.unsplash.com/photo-1627962534033-0818d66f82ed?w=800&q=80" -OutFile "public\images\news-3.jpg"
+Write-Host "[5/13] 뉴스룸 이미지 3 다운로드 중..." -ForegroundColor Green
+Invoke-WebRequest -Uri "https://images.unsplash.com/photo-1744551358280-f1d593754132?w=800&q=80" -OutFile "public\images\news-3.jpg"
 
-Write-Host "[6/10] 뉴스룸 이미지 4 다운로드 중..." -ForegroundColor Green
+Write-Host "[6/13] 뉴스룸 이미지 4 다운로드 중..." -ForegroundColor Green
 Invoke-WebRequest -Uri "https://images.unsplash.com/photo-1635814314546-5ecfa8f1a647?w=800&q=80" -OutFile "public\images\news-4.jpg"
 
 # Brands Section 이미지
-Write-Host "[7/10] 브랜드 이미지 1 다운로드 중..." -ForegroundColor Green
-Invoke-WebRequest -Uri "https://images.unsplash.com/photo-1769981653696-5ce5a59263bf?w=800&q=80" -OutFile "public\images\brand-1.jpg"
+Write-Host "[7/13] 브랜드 이미지 1 다운로드 중..." -ForegroundColor Green
+Invoke-WebRequest -Uri "https://images.unsplash.com/photo-1769107805412-90d9191d53e9?w=800&q=80" -OutFile "public\images\brand-1.jpg"
 
-Write-Host "[8/10] 브랜드 이미지 2 다운로드 중..." -ForegroundColor Green
-Invoke-WebRequest -Uri "https://images.unsplash.com/photo-1555274175-75f4056dfd05?w=800&q=80" -OutFile "public\images\brand-2.jpg"
+Write-Host "[8/13] 브랜드 이미지 2 다운로드 중..." -ForegroundColor Green
+Invoke-WebRequest -Uri "https://images.unsplash.com/photo-1766934587214-86e21b3ae093?w=800&q=80" -OutFile "public\images\brand-2.jpg"
 
-Write-Host "[9/10] 브랜드 이미지 3 다운로드 중..." -ForegroundColor Green
+Write-Host "[9/13] 브랜드 이미지 3 다운로드 중..." -ForegroundColor Green
 Invoke-WebRequest -Uri "https://images.unsplash.com/photo-1651083018668-33a9dc339579?w=800&q=80" -OutFile "public\images\brand-3.jpg"
 
+Write-Host "[10/13] 브랜드 이미지 4 다운로드 중..." -ForegroundColor Green
+Invoke-WebRequest -Uri "https://images.unsplash.com/photo-1641521953954-7f11e07cbb05?w=800&q=80" -OutFile "public\images\brand-4.jpg"
+
+Write-Host "[11/13] 브랜드 이미지 5 다운로드 중..." -ForegroundColor Green
+Invoke-WebRequest -Uri "https://images.unsplash.com/photo-1744551358280-f1d593754132?w=800&q=80" -OutFile "public\images\brand-5.jpg"
+
+Write-Host "[12/13] 브랜드 이미지 6 다운로드 중..." -ForegroundColor Green
+Invoke-WebRequest -Uri "https://images.unsplash.com/photo-1651742532474-ea4401a34a10?w=800&q=80" -OutFile "public\images\brand-6.jpg"
+
 # Career Section 이미지
-Write-Host "[10/10] 커리어 배경 이미지 다운로드 중..." -ForegroundColor Green
+Write-Host "[13/13] 커리어 배경 이미지 다운로드 중..." -ForegroundColor Green
 Invoke-WebRequest -Uri "https://images.unsplash.com/photo-1758518730178-6e237bc8b87d?w=1920&q=80" -OutFile "public\images\career-bg.jpg"
 
 Write-Host ""

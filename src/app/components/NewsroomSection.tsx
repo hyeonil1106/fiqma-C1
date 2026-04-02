@@ -1,10 +1,10 @@
 import svgPaths from "../../imports/svg-gglpr1yugh";
 
 const newsImages = [
-  "https://images.unsplash.com/photo-1563721465742-cc3ead9deb36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwbmV3cyUyMGVkaXRvcmlhbCUyMG1hZ2F6aW5lfGVufDF8fHx8MTc3NTExMDU5N3ww&ixlib=rb-4.1.0&q=80&w=400",
-  "https://images.unsplash.com/photo-1651742532474-ea4401a34a10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwc3RyZWV0JTIwc3R5bGUlMjB3b21lbnxlbnwxfHx8fDE3NzUxMTA2MDJ8MA&ixlib=rb-4.1.0&q=80&w=400",
-  "https://images.unsplash.com/photo-1627962534033-0818d66f82ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwbHV4dXJ5JTIwYnJhbmQlMjBtZW5zd2VhcnxlbnwxfHx8fDE3NzUxMTA2MDZ8MA&ixlib=rb-4.1.0&q=80&w=400",
-  "https://images.unsplash.com/photo-1635814314546-5ecfa8f1a647?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwbW9kZWwlMjBvdXRkb29yJTIwcG9ydHJhaXR8ZW58MXx8fHwxNzc1MDE3MDE4fDA&ixlib=rb-4.1.0&q=80&w=400",
+  "https://images.unsplash.com/photo-1641521953954-7f11e07cbb05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwbWFnYXppbmUlMjBlZGl0b3JpYWwlMjBwaG90b2dyYXBoeXxlbnwxfHx8fDE3NzUxMTU4ODh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+  "https://images.unsplash.com/photo-1651742532474-ea4401a34a10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdHJlZXQlMjBzdHlsZSUyMGZhc2hpb24lMjB3b21lbnxlbnwxfHx8fDE3NzUxMTU4ODh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+  "https://images.unsplash.com/photo-1744551358280-f1d593754132?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBtZW5zd2VhciUyMGZhc2hpb258ZW58MXx8fHwxNzc1MDQwMzM3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+  "https://images.unsplash.com/photo-1635814314546-5ecfa8f1a647?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwbW9kZWwlMjBwb3J0cmFpdCUyMG91dGRvb3J8ZW58MXx8fHwxNzc1MTE1ODkwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
 ];
 
 const newsItems = [

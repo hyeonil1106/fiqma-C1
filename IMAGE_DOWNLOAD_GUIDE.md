@@ -6,8 +6,8 @@
 
 ### Hero Section (2개)
 1. **hero-bg.jpg** (히어로 배경)
-   - URL: https://images.unsplash.com/photo-1705232497552-abd05ad64485?w=1920&q=80
-   - 다운로드 링크: [다운로드](https://unsplash.com/photos/abd05ad64485/download?force=true)
+   - URL: https://images.unsplash.com/photo-1763906473317-c9193c8ef05a?w=1920&q=80
+   - 다운로드 링크: [다운로드](https://unsplash.com/photos/c9193c8ef05a/download?force=true)
    
 2. **hero-overlay.jpg** (히어로 오버레이)
    - URL: https://images.unsplash.com/photo-1756483510864-5bc7bdc3cf22?w=1920&q=80
@@ -15,36 +15,48 @@
 
 ### Newsroom Section (4개)
 3. **news-1.jpg**
-   - URL: https://images.unsplash.com/photo-1563721465742-cc3ead9deb36?w=800&q=80
-   - 다운로드 링크: [다운로드](https://unsplash.com/photos/cc3ead9deb36/download?force=true)
+   - URL: https://images.unsplash.com/photo-1641521953954-7f11e07cbb05?w=800&q=80
+   - 다운로드 링크: [다운로드](https://unsplash.com/photos/7f11e07cbb05/download?force=true)
 
 4. **news-2.jpg**
    - URL: https://images.unsplash.com/photo-1651742532474-ea4401a34a10?w=800&q=80
    - 다운로드 링크: [다운로드](https://unsplash.com/photos/ea4401a34a10/download?force=true)
 
 5. **news-3.jpg**
-   - URL: https://images.unsplash.com/photo-1627962534033-0818d66f82ed?w=800&q=80
-   - 다운로드 링크: [다운로드](https://unsplash.com/photos/0818d66f82ed/download?force=true)
+   - URL: https://images.unsplash.com/photo-1744551358280-f1d593754132?w=800&q=80
+   - 다운로드 링크: [다운로드](https://unsplash.com/photos/f1d593754132/download?force=true)
 
 6. **news-4.jpg**
    - URL: https://images.unsplash.com/photo-1635814314546-5ecfa8f1a647?w=800&q=80
    - 다운로드 링크: [다운로드](https://unsplash.com/photos/5ecfa8f1a647/download?force=true)
 
-### Brands Section (5개 고유 이미지)
+### Brands Section (6개)
 7. **brand-1.jpg**
-   - URL: https://images.unsplash.com/photo-1769981653696-5ce5a59263bf?w=800&q=80
-   - 다운로드 링크: [다운로드](https://unsplash.com/photos/5ce5a59263bf/download?force=true)
+   - URL: https://images.unsplash.com/photo-1769107805412-90d9191d53e9?w=800&q=80
+   - 다운로드 링크: [다운로드](https://unsplash.com/photos/90d9191d53e9/download?force=true)
 
 8. **brand-2.jpg**
-   - URL: https://images.unsplash.com/photo-1555274175-75f4056dfd05?w=800&q=80
-   - 다운로드 링크: [다운로드](https://unsplash.com/photos/75f4056dfd05/download?force=true)
+   - URL: https://images.unsplash.com/photo-1766934587214-86e21b3ae093?w=800&q=80
+   - 다운로드 링크: [다운로드](https://unsplash.com/photos/86e21b3ae093/download?force=true)
 
 9. **brand-3.jpg**
    - URL: https://images.unsplash.com/photo-1651083018668-33a9dc339579?w=800&q=80
    - 다운로드 링크: [다운로드](https://unsplash.com/photos/33a9dc339579/download?force=true)
 
+10. **brand-4.jpg**
+   - URL: https://images.unsplash.com/photo-1641521953954-7f11e07cbb05?w=800&q=80
+   - 다운로드 링크: [다운로드](https://unsplash.com/photos/7f11e07cbb05/download?force=true)
+
+11. **brand-5.jpg**
+   - URL: https://images.unsplash.com/photo-1744551358280-f1d593754132?w=800&q=80
+   - 다운로드 링크: [다운로드](https://unsplash.com/photos/f1d593754132/download?force=true)
+
+12. **brand-6.jpg**
+   - URL: https://images.unsplash.com/photo-1651742532474-ea4401a34a10?w=800&q=80
+   - 다운로드 링크: [다운로드](https://unsplash.com/photos/ea4401a34a10/download?force=true)
+
 ### Career Section (1개)
-10. **career-bg.jpg**
+13. **career-bg.jpg**
    - URL: https://images.unsplash.com/photo-1758518730178-6e237bc8b87d?w=1920&q=80
    - 다운로드 링크: [다운로드](https://unsplash.com/photos/6e237bc8b87d/download?force=true)
 
@@ -61,19 +73,22 @@ mkdir -p public/images
 
 ```bash
 # Hero Section
-curl -L "https://images.unsplash.com/photo-1705232497552-abd05ad64485?w=1920&q=80" -o public/images/hero-bg.jpg
+curl -L "https://images.unsplash.com/photo-1763906473317-c9193c8ef05a?w=1920&q=80" -o public/images/hero-bg.jpg
 curl -L "https://images.unsplash.com/photo-1756483510864-5bc7bdc3cf22?w=1920&q=80" -o public/images/hero-overlay.jpg
 
 # Newsroom Section
-curl -L "https://images.unsplash.com/photo-1563721465742-cc3ead9deb36?w=800&q=80" -o public/images/news-1.jpg
+curl -L "https://images.unsplash.com/photo-1641521953954-7f11e07cbb05?w=800&q=80" -o public/images/news-1.jpg
 curl -L "https://images.unsplash.com/photo-1651742532474-ea4401a34a10?w=800&q=80" -o public/images/news-2.jpg
-curl -L "https://images.unsplash.com/photo-1627962534033-0818d66f82ed?w=800&q=80" -o public/images/news-3.jpg
+curl -L "https://images.unsplash.com/photo-1744551358280-f1d593754132?w=800&q=80" -o public/images/news-3.jpg
 curl -L "https://images.unsplash.com/photo-1635814314546-5ecfa8f1a647?w=800&q=80" -o public/images/news-4.jpg
 
 # Brands Section
-curl -L "https://images.unsplash.com/photo-1769981653696-5ce5a59263bf?w=800&q=80" -o public/images/brand-1.jpg
-curl -L "https://images.unsplash.com/photo-1555274175-75f4056dfd05?w=800&q=80" -o public/images/brand-2.jpg
+curl -L "https://images.unsplash.com/photo-1769107805412-90d9191d53e9?w=800&q=80" -o public/images/brand-1.jpg
+curl -L "https://images.unsplash.com/photo-1766934587214-86e21b3ae093?w=800&q=80" -o public/images/brand-2.jpg
 curl -L "https://images.unsplash.com/photo-1651083018668-33a9dc339579?w=800&q=80" -o public/images/brand-3.jpg
+curl -L "https://images.unsplash.com/photo-1641521953954-7f11e07cbb05?w=800&q=80" -o public/images/brand-4.jpg
+curl -L "https://images.unsplash.com/photo-1744551358280-f1d593754132?w=800&q=80" -o public/images/brand-5.jpg
+curl -L "https://images.unsplash.com/photo-1651742532474-ea4401a34a10?w=800&q=80" -o public/images/brand-6.jpg
 
 # Career Section
 curl -L "https://images.unsplash.com/photo-1758518730178-6e237bc8b87d?w=1920&q=80" -o public/images/career-bg.jpg
@@ -105,19 +120,22 @@ mkdir -p public/images
 echo "이미지 다운로드 중..."
 
 # Hero Section
-curl -L "https://images.unsplash.com/photo-1705232497552-abd05ad64485?w=1920&q=80" -o public/images/hero-bg.jpg
+curl -L "https://images.unsplash.com/photo-1763906473317-c9193c8ef05a?w=1920&q=80" -o public/images/hero-bg.jpg
 curl -L "https://images.unsplash.com/photo-1756483510864-5bc7bdc3cf22?w=1920&q=80" -o public/images/hero-overlay.jpg
 
 # Newsroom Section
-curl -L "https://images.unsplash.com/photo-1563721465742-cc3ead9deb36?w=800&q=80" -o public/images/news-1.jpg
+curl -L "https://images.unsplash.com/photo-1641521953954-7f11e07cbb05?w=800&q=80" -o public/images/news-1.jpg
 curl -L "https://images.unsplash.com/photo-1651742532474-ea4401a34a10?w=800&q=80" -o public/images/news-2.jpg
-curl -L "https://images.unsplash.com/photo-1627962534033-0818d66f82ed?w=800&q=80" -o public/images/news-3.jpg
+curl -L "https://images.unsplash.com/photo-1744551358280-f1d593754132?w=800&q=80" -o public/images/news-3.jpg
 curl -L "https://images.unsplash.com/photo-1635814314546-5ecfa8f1a647?w=800&q=80" -o public/images/news-4.jpg
 
 # Brands Section
-curl -L "https://images.unsplash.com/photo-1769981653696-5ce5a59263bf?w=800&q=80" -o public/images/brand-1.jpg
-curl -L "https://images.unsplash.com/photo-1555274175-75f4056dfd05?w=800&q=80" -o public/images/brand-2.jpg
+curl -L "https://images.unsplash.com/photo-1769107805412-90d9191d53e9?w=800&q=80" -o public/images/brand-1.jpg
+curl -L "https://images.unsplash.com/photo-1766934587214-86e21b3ae093?w=800&q=80" -o public/images/brand-2.jpg
 curl -L "https://images.unsplash.com/photo-1651083018668-33a9dc339579?w=800&q=80" -o public/images/brand-3.jpg
+curl -L "https://images.unsplash.com/photo-1641521953954-7f11e07cbb05?w=800&q=80" -o public/images/brand-4.jpg
+curl -L "https://images.unsplash.com/photo-1744551358280-f1d593754132?w=800&q=80" -o public/images/brand-5.jpg
+curl -L "https://images.unsplash.com/photo-1651742532474-ea4401a34a10?w=800&q=80" -o public/images/brand-6.jpg
 
 # Career Section
 curl -L "https://images.unsplash.com/photo-1758518730178-6e237bc8b87d?w=1920&q=80" -o public/images/career-bg.jpg
